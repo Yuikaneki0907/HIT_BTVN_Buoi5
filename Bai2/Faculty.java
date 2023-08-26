@@ -67,11 +67,4 @@ public class Faculty {
         System.out.println("Ten khoa la: " + this.Name);
         System.out.println("Ngay vao khoa la: " + this.Date);
     }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Faculty s = new Faculty();
-        s.Input(sc);
-        s.Output();
-    }
 }
